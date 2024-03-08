@@ -1,0 +1,59 @@
+img {
+    pointer-events:none;
+}
+
+.border {
+    border: 2px solid #808080;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.miner {
+    * {
+        box-sizing: border-box;
+        user-select: none
+    }
+    background-color: #cccccc;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+.topBar {
+    text-align: left;
+    font-size: 14px;
+    padding-left: 2px;
+    span {
+        cursor: pointer;
+    }
+    span:first-of-type {
+        margin-right: 8px;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 4px;
+    height: 25px;
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.face {
+    border: 2px solid #808080;
+    border-left-color: #fff;
+    border-top-color: #fff;
+}
+
+.face-hover {
+    border: 2px solid #808080;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+}
